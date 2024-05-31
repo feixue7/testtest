@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-05-30 14:41:16
+# 创建时间：2024-05-31 08:19:11
 # 使用模版：ACL4SSR_Online_NoReject.ini
 # 节点数量：4
 # 节点类型：vless, vmess, hysteria2, tuic
@@ -87,77 +87,77 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal","type":"vless","server":"34.42.114.44","port":58424,"udp":true,"uuid":"1ea1a0ec-cc71-4236-818c-8f719d2d791c","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"WMwZ8sTtPzbPcgbKjEBiAP901QkLuEIb1JwkSNIc3hg","short-id":"681a614a"},"client-fingerprint":"chrome"}
-  - {"name":"vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal","type":"vmess","server":"g11.ydns.eu","port":2087,"udp":true,"cipher":"auto","uuid":"1ea1a0ec-cc71-4236-818c-8f719d2d791c","alterId":0,"tls":true,"servername":"g11.ydns.eu","network":"ws","ws-opts":{"path":"1ea1a0ec-cc71-4236-818c-8f719d2d791c-vm","headers":{}}}
-  - {"name":"hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal","type":"hysteria2","server":"g11.ydns.eu","port":40845,"password":"1ea1a0ec-cc71-4236-818c-8f719d2d791c","sni":"g11.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"fast-open":true}
-  - {"name":"tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal","type":"tuic","server":"g11.ydns.eu","port":57027,"password":"1ea1a0ec-cc71-4236-818c-8f719d2d791c","uuid":"1ea1a0ec-cc71-4236-818c-8f719d2d791c","sni":"g11.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
+  - {"name":"vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal","type":"vless","server":"35.234.32.87","port":3732,"udp":true,"uuid":"834884e2-5339-4489-b034-af957b1f8b78","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"BYPmDCcNLaK6Ho3010edrrY6IPhVLrgVU16MIuM15C0","short-id":"4f72062d"},"client-fingerprint":"chrome"}
+  - {"name":"vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal","type":"vmess","server":"g11.ydns.eu","port":2053,"udp":true,"cipher":"auto","uuid":"834884e2-5339-4489-b034-af957b1f8b78","alterId":0,"tls":true,"servername":"g11.ydns.eu","network":"ws","ws-opts":{"path":"834884e2-5339-4489-b034-af957b1f8b78-vm","headers":{}}}
+  - {"name":"hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal","type":"hysteria2","server":"g11.ydns.eu","port":53251,"password":"834884e2-5339-4489-b034-af957b1f8b78","sni":"g11.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"fast-open":true}
+  - {"name":"tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal","type":"tuic","server":"g11.ydns.eu","port":11129,"password":"834884e2-5339-4489-b034-af957b1f8b78","uuid":"834884e2-5339-4489-b034-af957b1f8b78","sni":"g11.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,10 +170,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -   vless-reality-vision-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - vmess-ws-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - hysteria2-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
-      - tuic5-shili3.us-central1-c.c.alpine-flare-424900-n1.internal
+      -   vless-reality-vision-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - vmess-ws-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - hysteria2-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
+      - tuic5-shili4.asia-east1-a.c.alpine-flare-424900-n1.internal
 
 rules:
 # 本地/局域网地址
