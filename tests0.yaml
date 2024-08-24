@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-24 09:15:57
+# 创建时间：2024-08-24 16:55:45
 # 使用模版：ACL4SSR_Online_NoReject.ini
-# 节点数量：5
+# 节点数量：6
 # 节点类型：vless, vmess, trojan
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -92,6 +92,7 @@ proxies:
   - {"name":"Argo-k0baya-Trojan","type":"trojan","server":"upos-sz-mirrorcf1ov.bilivideo.com","port":443,"udp":true,"password":"5836228a-4fb6-43ef-aa3e-2b7dde226193","tls":true,"sni":"tntr.nn0.pp.ua","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/serv00-trojan?ed=2560","headers":{}}}
   - {"name":"ozs5.nn0.pp.ua","type":"vless","server":"ozs5.nn0.pp.ua","port":443,"udp":false,"uuid":"aa898a10-876e-46d9-b16d-ddf1fd86f9c3","tls":true,"sni":"ozs5.nn0.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"ozs5.nn0.pp.ua"}},"client-fingerprint":"randomized"}
   - {"name":"sv71","type":"vless","server":"sv71.nn9.us.kg","port":6161,"uuid":"f03b5e39-b8e1-4cd8-ac40-1704f96429d2","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"ozas5.nn0.pp.ua","type":"vless","server":"ozas5.nn0.pp.ua","port":443,"udp":false,"uuid":"714ed7de-1ace-4c2c-adbf-7ea686fb9ebd","tls":true,"sni":"ozas5.nn0.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"ozas5.nn0.pp.ua"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -103,6 +104,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -114,6 +116,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -125,6 +128,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: 📲 电报信息
     type: select
     proxies:
@@ -135,6 +139,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -145,6 +150,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -155,6 +161,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -166,6 +173,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,6 +191,7 @@ proxy-groups:
       - Argo-k0baya-Trojan
       - ozs5.nn0.pp.ua
       - sv71
+      - ozas5.nn0.pp.ua
 
 rules:
 # 本地/局域网地址
