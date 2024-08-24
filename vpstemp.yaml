@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-24 09:34:47
+# 创建时间：2024-08-24 10:25:54
 # 使用模版：ACL4SSR_Online_NoReject.ini
 # 节点数量：12
 # 节点类型：vless, vmess, hysteria2, tuic
@@ -91,14 +91,14 @@ proxies:
   - {"name":"vmess-ws-fx","type":"vmess","server":"45.158.127.241","port":8080,"udp":true,"cipher":"auto","uuid":"860c81d8-725c-4a53-9c07-a4e63d784c42","alterId":0,"tls":false,"servername":"www.bing.com","network":"ws","ws-opts":{"path":"860c81d8-725c-4a53-9c07-a4e63d784c42-vm","headers":{}}}
   - {"name":"hysteria2-fx","type":"hysteria2","server":"45.158.127.241","port":30974,"password":"860c81d8-725c-4a53-9c07-a4e63d784c42","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"fast-open":true}
   - {"name":"tuic5-fx","type":"tuic","server":"45.158.127.241","port":23878,"password":"860c81d8-725c-4a53-9c07-a4e63d784c42","uuid":"860c81d8-725c-4a53-9c07-a4e63d784c42","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
+  - {"name":"vless-reality-vision-VM225","type":"vless","port":50085,"udp":true,"uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"jdCGYc_hFEx0tCXr0YrZquZKms4gFgiDshAGYN4uQTM","short-id":"4c9e596a"},"client-fingerprint":"chrome"}
+  - {"name":"vmess-ws-VM225","type":"vmess","server":"tao.ydns.eu","port":50086,"udp":true,"cipher":"auto","uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","alterId":0,"tls":true,"servername":"tao.ydns.eu","network":"ws","ws-opts":{"path":"b673fd0c-d195-4393-88f0-9d3b230de09f-vm","headers":{}}}
+  - {"name":"hysteria2-VM225","type":"hysteria2","server":"tao.ydns.eu","port":50087,"password":"b673fd0c-d195-4393-88f0-9d3b230de09f","sni":"tao.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"fast-open":true}
+  - {"name":"tuic5-VM225","type":"tuic","server":"tao.ydns.eu","port":50088,"password":"b673fd0c-d195-4393-88f0-9d3b230de09f","uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","sni":"tao.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
   - {"name":"vless-reality-vision-ser958924180668","type":"vless","server":"144.22.160.110","port":32230,"udp":true,"uuid":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"l_BcHJrBow08jeh57gq13mMlCB1Ym_SjObgycw8zAwU","short-id":"2f50629e"},"client-fingerprint":"chrome"}
   - {"name":"vmess-ws-ser958924180668","type":"vmess","server":"144.22.160.110","port":32231,"udp":true,"cipher":"auto","uuid":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147","alterId":0,"tls":false,"servername":"www.bing.com","network":"ws","ws-opts":{"path":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147-vm","headers":{}}}
   - {"name":"hysteria2-ser958924180668","type":"hysteria2","server":"144.22.160.110","port":32232,"password":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"fast-open":true}
   - {"name":"tuic5-ser958924180668","type":"tuic","server":"144.22.160.110","port":32233,"password":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147","uuid":"3157a5e2-ec53-42f7-ad8c-274d8bfdb147","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
-  - {"name":"vless-reality-vision-VM225","type":"vless","server":"tao.ydns.eu","port":50085,"udp":true,"uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"jdCGYc_hFEx0tCXr0YrZquZKms4gFgiDshAGYN4uQTM","short-id":"4c9e596a"},"client-fingerprint":"chrome"}
-  - {"name":"vmess-ws-VM225","type":"vmess","server":"tao.ydns.eu","port":50086,"udp":true,"cipher":"auto","uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","alterId":0,"tls":true,"servername":"tao.ydns.eu","network":"ws","ws-opts":{"path":"b673fd0c-d195-4393-88f0-9d3b230de09f-vm","headers":{}}}
-  - {"name":"hysteria2-VM225","type":"hysteria2","server":"tao.ydns.eu","port":50087,"password":"b673fd0c-d195-4393-88f0-9d3b230de09f","sni":"tao.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"fast-open":true}
-  - {"name":"tuic5-VM225","type":"tuic","server":"tao.ydns.eu","port":50088,"password":"b673fd0c-d195-4393-88f0-9d3b230de09f","uuid":"b673fd0c-d195-4393-88f0-9d3b230de09f","sni":"tao.ydns.eu","skip-cert-verify":false,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":"native","congestion-controller":"bbr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -109,14 +109,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -127,14 +127,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -145,14 +145,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: 📲 电报信息
     type: select
     proxies:
@@ -162,14 +162,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -179,14 +179,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -196,14 +196,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -214,14 +214,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,14 +238,14 @@ proxy-groups:
       - vmess-ws-fx
       - hysteria2-fx
       - tuic5-fx
-      - vless-reality-vision-ser958924180668
-      - vmess-ws-ser958924180668
-      - hysteria2-ser958924180668
-      - tuic5-ser958924180668
       - vless-reality-vision-VM225
       - vmess-ws-VM225
       - hysteria2-VM225
       - tuic5-VM225
+      - vless-reality-vision-ser958924180668
+      - vmess-ws-ser958924180668
+      - hysteria2-ser958924180668
+      - tuic5-ser958924180668
 
 rules:
 # 本地/局域网地址
